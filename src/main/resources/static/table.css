@@ -1,0 +1,46 @@
+/* 
+    Created on : 2 de mar de 2021, 21:39:47
+    Author     : Gustavo
+*/
+
+.table {
+    width: 1000px;
+    border: 1px solid #ccc;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 3px 3px 2px #ccc;
+    transition: 0.5s;
+}
+
+#add:hover {
+    color: #fff;
+}
+
+#add2:hover {
+    color: #fff;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#pesquisa {
+    position: absolute;
+    width: 450px;
+    margin-left: 430px;
+    margin-bottom: -55px;
+}
+
+#table {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    text-align: center;
+}
+
+#add{
+    position: absolute; 
+    margin-left: 1270px;
+}

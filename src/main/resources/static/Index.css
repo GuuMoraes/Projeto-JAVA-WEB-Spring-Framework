@@ -1,0 +1,292 @@
+/* 
+    Created on : 20/03/2021, 22:56:38
+    Author     : Gustavo Moraes
+*/
+
+#iconePop:hover {
+    background-color: rgba(0, 161, 114, 0.3);
+    border-color: #00A172;
+    border-radius: 5px;
+}
+
+#iconePop {
+    margin: 5px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+a #add:hover {
+    color: #fff;
+}
+
+#icones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+#cursosPop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+#banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#mais {
+    margin-left: 540px;
+}
+
+#btnProd {
+    background-color: #007150;
+    border-color: #007150;
+    width: 250px;
+}
+
+#btnProd3 {
+    background-color: #007150;
+    border-color: #007150;
+}
+
+#btnProd2 {
+    background-color: #fff;
+    border-color: #007150;
+    color: #007150;
+}
+
+#Cardcursos {
+    width: 244px;
+    height: 180px;
+    border-radius: 3%;
+    margin-bottom: 8px;
+    background-position: center center;
+    width: 245px;
+    height: 137px;
+}
+
+#categorias {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#cards p {
+    font-size: 15px;
+}
+
+#box2 h1 {
+    font-size: 33px;
+    text-align: left;
+    margin-left: 100px;
+}
+
+#box2 h3 {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 120px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+
+#box2 hr {
+    margin-top: 0px;
+}
+
+#box2 tableEnd {
+    margin-left: 490px;
+}
+
+#itens table {
+    border-collapse: separate;
+    border: 1px solid #d5d5d5;
+    border-spacing: 15px;
+    border-radius: 1%;
+}
+
+#itens {
+    border-color: #B8B7B7;
+    margin-bottom: 30px;
+    margin-left: 120px;
+    text-align: center;
+}
+
+#itens h1 {
+    font-size: 25px;
+    margin-left: 40px;
+    margin-top: 50px;
+    vertical-align: middle;
+}
+
+#itens h2 {
+    text-align: right;
+    font-size: 18px;
+    margin-left: 130px;
+    margin-top: 60px;
+    vertical-align: middle;
+}
+
+#finalizar h2 {
+    color: black;
+    font-size: 30px;
+}
+
+#finalizar h1 {
+    color: black;
+    font-size: 33px;
+}
+
+@media (max-width: 1000px) {
+    #box {
+        display: none;
+    }
+
+    #banner {
+        margin-top: 40px;
+    }
+
+    #imgBanner {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    #iconePop {
+        width: 60px;
+        height: 60px;
+    }
+
+    #icones {
+        margin-left: 100px;
+        margin-bottom: 60px;
+    }
+
+    #banner {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-left: 25px;
+        margin-right: 30px;
+    }
+
+    #iconePop:hover {
+        background-color: #fff;
+    }
+
+    #cursosPop {
+        margin-left: 100px;
+    }
+
+    #filtro {
+        display: none;
+    }
+
+    #mais {
+        font-size: 18px;
+        width: 150px;
+        margin-left: 400px;
+    }
+
+    #btnProd {
+        width: 243px;
+        background-color: #007150;
+        border-color: #007150;
+    }
+
+    #btnProd:hover {
+        color: #fff;
+    }
+
+    #btnFinal {
+        margin-right: 220px;
+    }
+
+    #cards p {
+        font-size: 25px;
+        text-align: center;
+        margin: 0px;
+    }
+
+    #imgs {
+        width: 570px;
+        margin-left: 70px;
+    }
+
+    #destalhes {
+        width: 570px;
+        margin-left: 70px;
+        margin-top: 10px;
+    }
+
+    #btnProd3 {
+        margin-left: 20px;
+        width: 330px;
+        background-color: #007150;
+        border-color: #007150;
+    }
+
+    #btnProd2 {
+        height: 46px;
+        font-size: 20px;
+    }
+
+    #itens h1 {
+        font-size: 23px;
+        margin-left: 30px;
+        margin-top: 50px;
+        vertical-align: middle;
+    }
+
+    #itens h2 {
+        font-size: 17px;
+        margin-left: 45px;
+        margin-top: 55px;
+        vertical-align: middle;
+    }
+
+    #finalizar {
+        margin-left: 500px;
+    }
+
+    #btnProd3 {
+        font-size: 20px;
+    }
+
+    #Cardcursos p {
+        font-size: 50px;
+    }
+
+    #enc {
+        font-size: 20px;
+    }
+
+    #java {
+        font-size: 20px;
+    }
+
+    #descrição p {
+        font-size: 18px;
+    }
+
+    #desc {
+        font-size: 18px;
+    }
+}
+
+#cursosPop h3 {
+    font-size: 20px;
+    color: #000;
+    font-style: italic;
+}

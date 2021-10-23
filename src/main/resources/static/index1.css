@@ -1,0 +1,16 @@
+#iconePop:hover{
+    background-color: rgba(0, 161, 114, 0.3);
+    border-color: #00A172;
+    border-radius: 5px;
+}
+
+#iconePop{
+    margin: 5px 30px;
+    display: flex; flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+a #add:hover{
+    color: #fff;
+}

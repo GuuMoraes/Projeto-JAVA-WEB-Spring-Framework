@@ -1,0 +1,19 @@
+/* 
+    Created on : 05/03/2021, 20:03:30
+    Author     : Gustavo
+*/
+
+.panel-primary>.panel-heading {
+    color: #fff;
+    background-color: #00A172;
+    border-color: #00A172;
+}
+
+.panel-primary{
+    border-color: #00A172;
+}
+
+h11 {
+    color:red;
+}
+
